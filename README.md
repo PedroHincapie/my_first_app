@@ -34,23 +34,50 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Estas es mi primera API con Pyhton.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Estos fuero mis pasos para la construcion
 
 ```
-Give examples
+cd my_first_api
+python3 -m venv env
+source env/bin/activate
+```
+
+En caso de salir del entorno virtual
+
+```
+deactivate
+```
+
+Para validar que los pasos anteriores sean correacto tenemos
+
+```
+which python3
+```
+
+Librerias que uso
+```
+pip install fastapi
+```
+```
+pip install uvicorn
+```
+
+Luego, guardo todo lo instalado en mi archivo requirements.txt
+```
+pip3 install -r requirements.txt
 ```
 
 ### Installing
 
-Primero
+Para obtener el proyecto
 
 ```
 git clone
@@ -60,32 +87,18 @@ source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
-En caso de salir
-
-```
-deactivate
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
 ## 🔧 Running the tests <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Pasos para poner a correr esta APP
+### Ejucutar modo local
 ```
-Give an example
+uvicorn main:app
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+### En caso que deses realizar cambios sin tener que estar deteniendo la APP
 
 ```
-Give an example
+uvicorn main:app --reload
 ```
 
 ## 🎈 Usage <a name="usage"></a>
