@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">My First API in Python</h3>
 
 <div align="center">
 
@@ -50,18 +50,20 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Primero
 
 ```
-Give the example
+git clone
+cd my_first_api
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
 ```
 
-And repeat
+En caso de salir
 
 ```
-until finished
+deactivate
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
