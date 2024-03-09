@@ -40,7 +40,7 @@ Estas es mi primera API con Pyhton.
 
 Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
 
-### Prerequisites
+### Prerequisitos
 
 Estos fuero mis pasos para la construcion
 
@@ -95,15 +95,28 @@ Pasos para poner a correr esta APP
 uvicorn main:app
 ```
 
-### En caso que deses realizar cambios sin tener que estar deteniendo la APP
-
+## En caso que deses realizar cambios sin tener que estar deteniendo la APP
 ```
 uvicorn main:app --reload
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## En caso de necesitar cambiar el puerto de la appla APP
+```
+uvicorn main:app --reload --port 8080
+```
 
-Add notes about how to use the system.
+## 🎈 Y la Documentación <a name="usage"></a>
+
+Para hacer uso de la documentacion tenemos
+Dependera de donde tiene corriendo la app pero siempre sera el /docs
+```
+http://127.0.0.1:8080/docs
+```
+
+##### Para editar informacion de la documentacion tenemos
+```
+Por favor, ir al repositorio y buscar "Adicionar informacion para la doc de la APP"
+```
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
